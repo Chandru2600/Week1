@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Model files (large files)
+# Note: For deployment, you may want to use Git LFS for model files
+# Uncomment the line below if NOT using Git LFS:
+# model/*.h5
+model/*.tflite
+model/*.pb
+model/checkpoints/
+model/training_log.csv
+model/training_history.png
+model/confusion_matrix.png
+
+# Keep class_names.json (small file, needed for app)
+!model/class_names.json
+
+# Dataset (if too large)
+dataset/processed/
+*.jpg
+*.jpeg
+*.png
+*.JPG
+*.JPEG
+*.PNG
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+

@@ -1,0 +1,29 @@
+# Core Deep Learning
+tensorflow>=2.15.0
+keras>=2.15.0
+
+# Web Application
+streamlit>=1.28.0
+Pillow>=10.0.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Image Processing
+opencv-python>=4.8.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: For TensorFlow Lite conversion
+# tensorflow-lite (included with tensorflow)
+
+# Development (optional)
+# jupyter>=1.0.0
+# ipython>=8.12.0
+
